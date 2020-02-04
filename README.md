@@ -2,6 +2,9 @@
 
 Package `env` enhances `os.Getenv` and `os.LookupEnv` and adds `FallbackLookup` and `MustLookup`.
 
+![build status](https://api.travis-ci.org/elisarver/env.svg?branch=master)
+
+
 ## Use in testing
 
 This package uses `os.Setenv("FOUND", "found")` to prepare its 'found' value, and `os.Unsetenv("MISSING")` to ensure 
